@@ -1,0 +1,1 @@
+let solve = (input: string) => input
