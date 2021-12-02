@@ -16,7 +16,8 @@ let readAllText = (fileName: string ) => {
 
 
 
-let () = readAllText("inputs/1.txt") 
+let () = 
+readAllText("inputs/1.txt") 
 |> Lib.Example.solve
 |> Lib.Util.make_text_christmasy
 |> print_endline;
